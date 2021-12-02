@@ -1,0 +1,37 @@
+:root {
+--header: #C33E47;
+--primario: #C33E47;
+--secundario: #1B1B1A;
+--blanco: #E8E8E7;
+--primarioClaro: #CF767C;
+--blanco-primario: #DBAFB1;
+
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    font-size: 16px; /* 1rem = 10px */  
+}
+main {
+    min-height: 100vh;
+    max-width: 100vw;
+    
+}
+header {
+    min-height: 10vh;
+    background-color: var(--header);
+}
+aside{
+    min-height: 80vh;
+    background-color: var(--secundario);
+}
+ul{
+    margin: 0;
+    background-color: var(--blanco);
+}
+footer {
+    min-height: 10vh;
+    background-color: var(--header);
+}
