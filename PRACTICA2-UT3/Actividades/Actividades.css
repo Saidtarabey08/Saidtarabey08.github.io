@@ -284,8 +284,7 @@ transition: background .55s ease;
   [value="America"]:checked ~ .filters [for="America"],
   [value="Asia"]:checked ~ .filters [for="Asia"],
   [value="Africa"]:checked ~ .filters [for="Africa"],
-  [value="Slider"]:checked ~ .filters [for="Slider"],
-  [value="fullPage.js"]:checked ~ .filters [for="fullPage.js"] {
+  [value="Suramerica"]:checked ~ .filters [for="Suramerica"] {
     background: var(--green);
     color: var(--white);
   }
@@ -298,8 +297,7 @@ transition: background .55s ease;
   [value="America"]:checked ~ .posts .post:not([data-category~="America"]),
   [value="Asia"]:checked ~ .posts .post:not([data-category~="Asia"]),
   [value="Africa"]:checked ~ .posts .post:not([data-category~="Africa"]),
-  [value="Suramerica"]:checked ~ .posts .post:not([data-category~="Suramerica"]),
-  [value="fullPage.js"]:checked ~ .posts .post:not([data-category~="fullPage.js"]) {
+  [value="Suramerica"]:checked ~ .posts .post:not([data-category~="Suramerica"]) {
     display: none;
   }
   
