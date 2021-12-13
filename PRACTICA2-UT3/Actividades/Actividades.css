@@ -232,6 +232,8 @@ transition: background .55s ease;
     display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
+
+    
   }
   
   .posts .post {
@@ -301,8 +303,22 @@ transition: background .55s ease;
     display: none;
   }
   
-    
+  .animated {
+    animation: hello-goodbye 1.8s ;
+    width: fit-content;
+  }
+  @keyframes hello-goodbye {
+    0% {
+      transform: translateY(-60px);
+      opacity: 0;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+  }  
   
+
   @media screen and (max-width: 900px) {
     .posts {
       grid-template-columns: repeat(3, 1fr);
