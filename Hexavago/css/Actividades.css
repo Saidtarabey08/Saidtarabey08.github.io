@@ -6,8 +6,6 @@
 --primarioClaro: #CF767C;
 --blanco-primario: #DBAFB1;
 --black: #3a3a3a;
---white: #fff;
---green: #C33E47;
 }
 * {
   margin: 0;
@@ -74,7 +72,7 @@ h1 a {
 
 h1 a:hover {
   background: var(--header);
-  color: var(--white);
+  color: var(--blanco);
 }
 
 input[type="radio"] {
@@ -224,7 +222,7 @@ transition: background .55s ease;
   
   .filters label:hover {
     background: var(--header);
-    color: var(--white);
+    color: var(--blanco);
   }
   
   
@@ -275,8 +273,8 @@ transition: background .55s ease;
   }
   
   .posts .post-categories a:hover {
-    background: var(--green);
-    color: var(--white);
+    background: var(--primario);
+    color: var(--blanco);
   }
   
   
@@ -287,8 +285,8 @@ transition: background .55s ease;
   [value="Asia"]:checked ~ .filters [for="Asia"],
   [value="Africa"]:checked ~ .filters [for="Africa"],
   [value="Suramerica"]:checked ~ .filters [for="Suramerica"] {
-    background: var(--green);
-    color: var(--white);
+    background: var(--primario);
+    color: var(--blanco);
   }
   
   [value="All"]:checked ~ .posts [data-category] {
