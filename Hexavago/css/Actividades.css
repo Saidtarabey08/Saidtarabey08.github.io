@@ -7,6 +7,7 @@
 --blanco-primario: #DBAFB1;
 --black: #3a3a3a;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -87,7 +88,6 @@ footer {
     padding: 0 1.5rem;
     text-align: right;
 }
-
 
 .nav {
   display: flex;
@@ -305,6 +305,7 @@ transition: background .55s ease;
     animation: hello-goodbye 1.8s ;
     width: fit-content;
   }
+
   @keyframes hello-goodbye {
     0% {
       transform: translateY(-60px);
@@ -319,16 +320,17 @@ transition: background .55s ease;
 
   @media screen and (max-width: 900px) {
     .posts {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
   
   @media screen and (max-width: 650px) {
     html {
-      font-size: 14px;
-    }
   
+      font-size: 0.5rem;
+    }
+
     .posts {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }
   }
