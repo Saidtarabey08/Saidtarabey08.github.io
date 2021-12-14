@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Noto Sans Display', sans-serif;
 }
 
 html {
@@ -95,6 +96,8 @@ footer {
   align-items: center;
   max-width: 992px;
   margin: 0 auto;
+  
+  
 }
 
 .nav-logo{
@@ -106,10 +109,7 @@ footer {
   height: 80px;
 }
 
-.nav-link {
-  color: var(--blanco);
-  text-decoration: none;
-}
+
 
 .logo {
   font-size: 3rem;
@@ -123,7 +123,6 @@ footer {
   display: flex;
   margin-right: 4rem;
   list-style: none;
-  
 }
 
 .nav-menu-item {
@@ -133,11 +132,14 @@ footer {
   text-transform: uppercase;
   width: max-content;
   cursor: pointer;
+  font-weight: bold;
+  
 }
 
 .nav-menu-item:hover{
   background: var(--secundario);
   transition: .5s;
+  color: var(--blanco-primario);
 }
 
 .box{
@@ -235,8 +237,8 @@ transition: background .55s ease;
   }
   
   .posts .post {
-    background: #fafafa;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: var(--secundario);
+    border: 1px solid white;
   }
   
   .posts .post-title {
@@ -327,7 +329,7 @@ transition: background .55s ease;
   @media screen and (max-width: 650px) {
     html {
   
-      font-size: 0.5rem;
+      font-size: 0.7rem;
     }
 
     .posts {
