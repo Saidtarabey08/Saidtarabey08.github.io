@@ -304,11 +304,11 @@ transition: background .55s ease;
   }
   
   .animated {
-    animation: hello-goodbye 1.8s ;
+    animation: bajar-post 1.8s ;
     width: fit-content;
   }
 
-  @keyframes hello-goodbye {
+  @keyframes bajar-post {
     0% {
       transform: translateY(-60px);
       opacity: 0;
