@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*
+{
+  font-family: 'Anton', sans-serif;
+  color: white;
+}
+
+header
+{
+    background-color: #C33E47;
+    height: 10vh;
+    width:110vw;
+    margin: -0.9vh -0.9vw 1vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+main
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+table
+{
+  text-align: left;
+}
+
+*>.disponibilidad
+{
+  justify-content: center;
+}
+
+.disponibilidad
+{
+  background-color: #3a3a3a;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  appearance: button;
+
+}
+.disponibilidad:hover
+{
+  transition: 1s;
+  background-color: #C33E47;
+}
+
+html
+{
+  background-color: #1B1B1A;
+}
+
+.cabecera
+{
+  width: 75%;
+  display: flex;
+  align-items: space-between;
+  height: 60px;
+}
+
+.aerolinea
+{
+  
+  height: 3vw;
+}
+
+.fotodestino
+{
+  width: 10vw;
+}
+
+.espaciado, table
+{
+  padding: 10px;
+}
+
+.lugardestino
+{
+  font-weight: normal;
+  font-size: 2vh;
+}
+
+.precio
+{
+  text-align: center;
+  font-size: 40px;
+  color: #C33E47;
+}
+
+.logo
+{
+  display: flex;
+  height: 80px;
+}
+
+.menu
+{
+  display: flex;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul{
+     list-style: none;
+     display: inline-block;
+  }
+
+  nav ul li{
+      float: left;
+      margin: 20px;
+  }
+
+  nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      transition-duration: 0.4s;
+    transition-property: color;
+  }
+
+  nav ul li a:hover{
+    background: #1B1B1A;
+  transition: .5s;
+  color: #DBAFB1;
+  }
